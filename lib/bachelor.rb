@@ -9,7 +9,7 @@ def get_first_name_of_season_winner(data, season)
     end
   end
 end
-        
+
     #if season_num == season
 
 
