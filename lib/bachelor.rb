@@ -1,10 +1,10 @@
 require 'pry'
 
 def get_first_name_of_season_winner(data, season)
-  data.each do |h| #hash with seasons as keys
-    h.each do |a|
-      a.each do |k, v|
-        binding.pry
+  data.each do |h1| #hash with seasons as keys
+      a.each do |h2|
+        h2.each do |k,v|
+          binding.pry
       end
     end
   end
