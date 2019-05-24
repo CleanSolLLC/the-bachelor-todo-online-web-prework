@@ -1,16 +1,17 @@
 require 'pry'
 
 def get_first_name_of_season_winner(data, season)
-  data.each do |season_num, contestant_data|
-    if season_num == season
-      data[season].each.to_h do |key, value| #array of each contestant for that season create to a hash
-        attribute.each do |
-    binding.pry
-        end
+  data.each do |h| #hash with seasons as keys
+    h.each do |a|
+      a.each do |k, v|
+        binding.pry
       end
     end
   end
 end
+        
+    #if season_num == season
+
 
 def get_contestant_name(data, occupation)
   # code here
