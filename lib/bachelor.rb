@@ -6,6 +6,7 @@ def get_first_name_of_season_winner(data, season)
       season_data.each do |contestant_info|  # itereate over contestant data stored in arrays
         contestant_info.each do |attributes,data| #iterate over arrays to retrieve hash keys and values
           binding.pry
+        end
       end
     end
   end
